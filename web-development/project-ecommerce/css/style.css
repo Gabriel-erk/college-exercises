@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(65, 105, 225);
+    min-height: 230px;
+    margin-bottom: 20px;
+}
+
+header>div {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header .logo {
+    width: 140px;
+    height: 110px;
+    padding-top: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    float: left;
+    margin-top: 30px;
+    background-color: white;
+}
+
+header nav ul>li {
+    float: left;
+}
+
+header nav ul>li a {
+    line-height: 3.5em;
+    color: rgb(65, 105, 225);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+header nav ul>li a:hover,
+header nav ul>li:hover {
+    color: white;
+    background-color: rgb(65, 105, 225);
+}
+
+/* Container principal */
+main.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Coluna lateral */
+aside.col-lateral {
+    float: left;
+    width: 180px;
+    margin: 0 10px 10px 0;
+}
+
+aside.col-lateral h2 {
+    color: white;
+    background-color: rgb(65, 105, 225);
+    padding: 10px;
+}
+
+aside.col-lateral .caixa {
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+aside.col-lateral .link-lateral {
+    list-style: none;
+}
+
+aside.col-lateral .link-lateral li {
+    margin-top: 30px;
+}
+
+aside.col-lateral .link-lateral li a {
+    text-decoration: none;
+    color: rgb(65, 105, 225);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Colunas de aplicativo e tema */
+section.col-aplicativo,
+section.col-tema {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 270px;
+}
+
+section.col-aplicativo h2,
+section.col-tema h2 {
+    color: white;
+    background-color: rgb(65, 105, 225);
+    padding: 10px;
+}
+
+section.col-aplicativo img,
+section.col-tema img {
+    max-width: 270px;
+    width: 100%;
+}
+
+section.col-aplicativo h3,
+section.col-tema h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(65, 105, 225);
+}
+
+section.col-aplicativo p,
+section.col-tema .tema p {
+    color: rgb(65, 105, 225);
+}
+
+section.col-aplicativo p a,
+section.col-tema .tema p a {
+    color: blue;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.col-tema .tema {
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(65, 105, 225);
+    height: 200px;
+    clear: both;
+}
+
+footer div {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+footer div p {
+    padding: 10px;
+}
