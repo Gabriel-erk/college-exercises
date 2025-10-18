@@ -10,5 +10,8 @@ INSERT INTO produtos (nome, preco, quantidade, descricao) VALUES
 ('Notebook ABC', 3500.50, 5, 'Notebook 16GB RAM, 512GB SSD'),
 ('Camiseta Casual', 49.90, 30, 'Camiseta de algodão masculina'),
 ('Bolo de Chocolate', 25.00, 20, 'Bolo caseiro de chocolate 500g'),
+('Mouse logitech G512', 25.00, 20, 'Mouse'),
+('PS5 Pro', 25.00, 20, 'Console de última geração'),
+('Memoria RAM 32', 25.00, 20, 'Peça de hardware'),
 ('Fone de Ouvido', 199.99, 15, 'Fone bluetooth com cancelamento de ruído');
 
