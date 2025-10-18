@@ -1,0 +1,92 @@
+/* Reset simples */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Colunas verticalizadas */
+#colunas {
+  display: flex;
+  flex-direction: column; /* vertical */
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+article {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+article img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer fixo no final */
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto; /* força o footer a ir para o final */
+}
