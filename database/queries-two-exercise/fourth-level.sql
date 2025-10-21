@@ -18,9 +18,11 @@ UPDATE produtos
 SET preco = preco * 0.95
 WHERE nome LIKE '%Memória%';
 
--- UPDATE produtos
--- SET categorias_id = 1
--- WHERE categorias_id IS NULL;
+UPDATE produtos
+SET categoria_id = 1
+WHERE categoria_id IS NULL;
 
 UPDATE produtos
 SET quantidade = 100;
+
+SELECT * FROM produtos;

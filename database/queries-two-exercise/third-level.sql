@@ -11,3 +11,5 @@ WHERE nome = 'Memoria RAM 32';
 UPDATE produtos
 SET preco = preco * 1.08,
     quantidade = quantidade - 1;
+
+SELECT * FROM produtos;

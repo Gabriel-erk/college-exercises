@@ -22,3 +22,5 @@ WHERE nome LIKE '%RAM%';
 UPDATE produtos
 SET preco = preco * 1.05
 WHERE quantidade < 20 ;
+
+SELECT * FROM produtos;

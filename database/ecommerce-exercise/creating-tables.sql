@@ -11,5 +11,9 @@ CREATE TABLE produtos (
     nome VARCHAR(100) NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
     quantidade INT NOT NULL,
-    descricao TEXT
+    descricao TEXT,
+    categoria_id INT,
+    CONSTRAINT fk_categoria FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
+
+drop table produtos;
