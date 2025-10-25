@@ -1,0 +1,5 @@
+npm install --save
+
+npm install mongoose --save
+
+npm install --save-dev jest
