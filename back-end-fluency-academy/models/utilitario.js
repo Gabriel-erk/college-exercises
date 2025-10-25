@@ -3,6 +3,9 @@ const Carro = require('./carro');
 
 class Utilitario extends Carro {
     constructor(placa, cor, ano, modelo, quilometragem, vdiaria, observacao, qtPassageiro, tmBagageiro, kmLitro) {
+        if (vdiaria != Number || vdiaria <= 0) {
+            throw new Error("Valor da diária deve ser maior que zero");
+        }
         super(placa, cor, ano, modelo, quilometragem, vdiaria, observacao);
         this.qtPassageiro = qtPassageiro;
         this.tmBagageiro = tmBagageiro;
