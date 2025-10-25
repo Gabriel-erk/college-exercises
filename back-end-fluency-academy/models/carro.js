@@ -9,3 +9,5 @@ class Carro {
         this.observacao = observacao;
     }
 }
+
+module.exports = Carro;
