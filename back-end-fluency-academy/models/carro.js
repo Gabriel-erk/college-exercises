@@ -1,13 +1,13 @@
-class Carro {
-    constructor(placa, cor, ano, modelo, quilometragem, vdiaria, observacao) {
-        this.placa = placa;
-        this.cor = cor;
-        this.ano = ano;
-        this.modelo = modelo;
-        this.quilometragem = quilometragem;
-        this.vdiaria = vdiaria;
-        this.observacao = observacao;
-    }
-}
+const mongoose = require('mongoose');
+const Carro = mongoose.Schema({
+    placa: { type: String, required: true },
+    ano: { type: Number, required: true },
+    modelo: { type: String, required: true },
+    cor: { type: String, required: true },
+    tipo: { type: String, required: true },
+    quilometragem: { type: Number, required: true },
+    vdiaria: { type: Number, required: true },
+    observacao: { type: String, required: false }
+});
 
-module.exports = Carro;
+module.exports = mongoose.model('Carro', Carro);
