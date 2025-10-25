@@ -1,19 +1,15 @@
-// importante importar a classe Carro
-const Carro = require("./carro");
+const mongoose = require("mongoose");
+const Utilitario = mongoose.Schema;
+({
+  idCarro: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Carro",
+    required: true,
+  },
+  qtPassageiro: { type: Number, required: true },
+  tmBagageiro: { type: Number, required: true },
+  kmLitro: { type: Number, required: true },
+}),
+  { versionKey: false };
 
-class Utilitario extends Carro {
-    constructor(placa, ano, cor, modelo, quilometragem, vdiaria, observacao, qtPassageiro, tmBagageiro, kmLitro) {
-        super(placa, ano, cor, modelo, quilometragem, vdiaria, observacao);
-
-        if (typeof vdiaria !== 'number' || vdiaria <= 0) {
-            throw new Error("Valor da diária deve ser maior que zero");
-        }
-
-        this.qtPassageiro = qtPassageiro;
-        this.tmBagageiro = tmBagageiro;
-        this.kmLitro = kmLitro;
-    }
-}
-
-// exportar a classe Utilitario, para que possa ser utilizada em outros arquivos (para que seja vista)
-module.exports = Utilitario;
+module.exports = mongoose.model("Utilitario", Utilitario);

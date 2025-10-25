@@ -8,6 +8,6 @@ const Carro = mongoose.Schema({
     quilometragem: { type: Number, required: true },
     vdiaria: { type: Number, required: true },
     observacao: { type: String, required: false }
-});
+}, {versionKey: false });
 
 module.exports = mongoose.model('Carro', Carro);
