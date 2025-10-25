@@ -1,12 +1,14 @@
 // importante importar a classe Carro
-const Carro = require('./carro');
+const Carro = require("./carro");
 
 class Utilitario extends Carro {
-    constructor(placa, cor, ano, modelo, quilometragem, vdiaria, observacao, qtPassageiro, tmBagageiro, kmLitro) {
-        if (vdiaria != Number || vdiaria <= 0) {
+    constructor(placa, ano, cor, modelo, quilometragem, vdiaria, observacao, qtPassageiro, tmBagageiro, kmLitro) {
+        super(placa, ano, cor, modelo, quilometragem, vdiaria, observacao);
+
+        if (typeof vdiaria !== 'number' || vdiaria <= 0) {
             throw new Error("Valor da diária deve ser maior que zero");
         }
-        super(placa, cor, ano, modelo, quilometragem, vdiaria, observacao);
+
         this.qtPassageiro = qtPassageiro;
         this.tmBagageiro = tmBagageiro;
         this.kmLitro = kmLitro;
