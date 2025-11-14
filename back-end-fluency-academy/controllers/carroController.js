@@ -1,4 +1,4 @@
-const Carro = require("../models/carro");
+const Carro = require("./models/carro");
 
 module.exports = class CarroController {
   static async inserir(req, res) {
@@ -35,6 +35,7 @@ module.exports = class CarroController {
         });
       });
   }
+
   static async buscarPelaPlaca(req, res) {
     Carro.find({ placa: req.body.placa })
       .then((data) => {
@@ -47,6 +48,7 @@ module.exports = class CarroController {
         });
       });
   }
+
   static async deletar(req, res) {
     const id = req.query.id;
 
@@ -64,7 +66,7 @@ module.exports = class CarroController {
       })
       .catch((err) => {
         res.status(500).send({
-          message: err.message || "Ocorreu um erro ao deletar o carro.",
+          message: err.message || `Ocorreu um erro ao deletar o carro pela id: ${id}.`,
         });
       });
   }
