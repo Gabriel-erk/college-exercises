@@ -1,4 +1,4 @@
-const esportivo = require("./models/promocao");
+const esportivo = require("../models/promocao");
 
 module.exports = class EsportivoController {
   static async inserir(req, res) {

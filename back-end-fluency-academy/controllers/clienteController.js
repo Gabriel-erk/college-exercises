@@ -1,4 +1,4 @@
-const cliente = require("./models/cliente");
+const cliente = require("../models/cliente");
 
 module.exports = class ClienteController {
   static async inserir(req, res) {

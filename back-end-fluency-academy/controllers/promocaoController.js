@@ -1,4 +1,4 @@
-const Promocao = require("./models/promocao");
+const Promocao = require("../models/promocao");
 
 module.exports = class PromocaoController {
   static async inserir(req, res) {

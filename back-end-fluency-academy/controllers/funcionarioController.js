@@ -1,4 +1,4 @@
-const funcionario = require("./models/funcionario");
+const funcionario = require("../models/funcionario");
 module.exports = class FuncionarioController { 
       static async inserir(req, res) {
         const funcionario = new Funcionario({

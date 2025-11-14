@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Cliente = mongoose.Schema;
+const Cliente = new mongoose.Schema;
 ({
     nome: { type: String, required: true },
     cpf: { type: String, unique: true, required: true },

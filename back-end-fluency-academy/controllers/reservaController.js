@@ -1,6 +1,6 @@
-const Reserva = require("./models/Reserva");
-const Cliente = require("./models/Cliente");
-const Carro = require("./models/Carro");
+const Reserva = require("../models/Reserva");
+const Cliente = require("../models/cliente");
+const Carro = require("../models/Carro");
 
 module.exports = class ReservaController {
   static async inserir(req, res) {

@@ -1,4 +1,4 @@
-const Carro = require("./models/carro");
+const Carro = require("../models/Carro");
 
 module.exports = class CarroController {
   static async inserir(req, res) {
