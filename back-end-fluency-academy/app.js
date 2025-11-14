@@ -18,7 +18,7 @@ app.use('/', esportivoRouter);
 var clienteRouter = require('./routes/clienteRouter');
 app.use('/', clienteRouter);
 
-var funcionarioRouter = require('./routes/funcioarioRouter');
+var funcionarioRouter = require('./routes/funcionarioRouter');
 app.use('/', funcionarioRouter);
 
 var promocaoRouter = require('./routes/promocaoRouter');
