@@ -24,18 +24,18 @@ module.exports = class ReservaController {
         });
       });
   }
-
+  // buscar pela placa do carro na url
   static async buscar(req, res) {
-    Reserva.find({ tipo: req.body.tipo })
-      .then((data) => {
-        res.send(data);
-      })
+    Reserva.find({ placaCarro: req.query.placaCarro })
+      .then((data) => res.send(data))
       .catch((err) => {
         res.status(404).send({
-          message: err.message || "Ocorreu um erro ao buscar carros pelo tipo.",
+          message: err.message || "Erro ao buscar reserva pela placa.",
         });
       });
   }
+
+  
   static async atualizar(req, res) {
     const id = req.query;
 
