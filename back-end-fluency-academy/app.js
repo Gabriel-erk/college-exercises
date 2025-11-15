@@ -1,14 +1,23 @@
 const http = require("http");
 const express = require("express");
+const mongoose = require("mongoose");
 
 const app = express();
 
-// ESSENCIAL para ler JSON enviado pelo Postman
+// ESSENCIAL
 app.use(express.json());
-
-// Para aceitar dados enviados como formulário
 app.use(express.urlencoded({ extended: true }));
 
+// Conexão com o MongoDB, utilizando nossas informações de banco criadas no docker-compose.yml
+mongoose
+  .connect("mongodb://user:password@0.0.0.0:27017/carrofacil?authSource=admin", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("MongoDB conectado!"))
+  .catch((err) => console.log("Erro ao conectar ao MongoDB:", err));
+
+// Suas rotas
 var utilitarioRouter = require('./routes/utilitarioRouter');
 app.use('/', utilitarioRouter);
 
@@ -30,9 +39,9 @@ app.use('/', promocaoRouter);
 var reservaRouter = require('./routes/reservaRouter');
 app.use('/', reservaRouter);
 
+// Servidor
 const PORT = 3000;
 const HOST = '0.0.0.0';
-
 app.listen(PORT, HOST, () => {
   console.log("Servidor rodando na porta 3000");
 });
