@@ -1,16 +1,18 @@
 const mongoose = require("mongoose");
-const Cliente = new mongoose.Schema;
-({
+
+const ClienteSchema = new mongoose.Schema(
+  {
     nome: { type: String, required: true },
     cpf: { type: String, unique: true, required: true },
-    idade: { type: Number, unique: true, required: true },
-    dtNascimento: { type: Date, unique: true, required: true },
+    idade: { type: Number, required: true },
+    dtNascimento: { type: Date, required: true },
     telefone: { type: String, required: true },
     email: { type: String, required: true },
     endereco: { type: String, required: true },
     nuCarteiraMotorista: { type: String, required: true },
-    anoVecimentoCarteira: { type: Number, required: true },
-}),
-  { versionKey: false };
+    anoVencimentoCarteira: { type: Number, required: true }, // corrigido
+  },
+  { versionKey: false }
+);
 
-module.exports = mongoose.model("Cliente", Cliente);
+module.exports = mongoose.model("Cliente", ClienteSchema);
