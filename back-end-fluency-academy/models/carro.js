@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Carro = mongoose.Schema({
+const Carro = new mongoose.Schema({
     placa: { type: String, required: true },
     ano: { type: Number, required: true },
     modelo: { type: String, required: true },
