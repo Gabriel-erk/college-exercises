@@ -6,9 +6,10 @@ module.exports = class CarroController {
       placa: req.body.placa,
       ano: req.body.ano,
       modelo: req.body.modelo,
+      cor: req.body.cor,
       tipo: req.body.tipo,
       quilometragem: req.body.quilometragem,
-      diaria: req.body.diaria,
+      vdiaria: req.body.vdiaria,
       observacao: req.body.observacao,
     });
 
@@ -25,10 +26,8 @@ module.exports = class CarroController {
   }
 
   static async buscarPeloTipo(req, res) {
-    Carro.find({ tipo: req.body.tipo })
-      .then((data) => {
-        res.send(data);
-      })
+    Carro.find({ tipo: req.query.tipo })
+      .then((data) => res.send(data))
       .catch((err) => {
         res.status(404).send({
           message: err.message || "Ocorreu um erro ao buscar carros pelo tipo.",
@@ -37,10 +36,8 @@ module.exports = class CarroController {
   }
 
   static async buscarPelaPlaca(req, res) {
-    Carro.find({ placa: req.body.placa })
-      .then((data) => {
-        res.send(data);
-      })
+    Carro.find({ placa: req.query.placa })
+      .then((data) => res.send(data))
       .catch((err) => {
         res.status(404).send({
           message:
@@ -66,7 +63,8 @@ module.exports = class CarroController {
       })
       .catch((err) => {
         res.status(500).send({
-          message: err.message || `Ocorreu um erro ao deletar o carro pela id: ${id}.`,
+          message:
+            err.message || `Ocorreu um erro ao deletar o carro pela id: ${id}.`,
         });
       });
   }
