@@ -1,0 +1,2 @@
+CREATE DATABASE hospital_autoatendimento;
+USE hospital_autoatendimento;
