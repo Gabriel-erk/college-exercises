@@ -4,7 +4,8 @@ services:
     container_name: db
     restart: always
     ports:
-      - "0.0.0.0:27017"
+      - "127.0.0.1:27017:27017"
+
     environment:
       - MONGO_INITDB_DATABASE=carrofacil
       - MONGO_INITDB_ROOT_USERNAME=user

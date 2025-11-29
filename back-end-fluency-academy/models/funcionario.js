@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const Funcionario = new mongoose.Schema(
+const FuncionarioSchema = new mongoose.Schema(
   {
     nome: { type: String, required: true },
     cpf: { type: String, unique: true, required: true },
@@ -10,9 +10,9 @@ const Funcionario = new mongoose.Schema(
     email: { type: String, required: true },
     endereco: { type: String, required: true },
     nuCarteiraMotorista: { type: String, required: true },
-    anoVecimentoCarteira: { type: Number, required: true },
+    anoVencimentoCarteira: { type: Number, required: true }, // corrigido
   },
   { versionKey: false }
 );
 
-module.exports = mongoose.model("Funcionario", Funcionario);
+module.exports = mongoose.model("Funcionario", FuncionarioSchema);
