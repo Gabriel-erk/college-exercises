@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|c:\\dev\\college-exercises\\csharp-classes-2-year-2026\\unimaraula02\\unimaraula02\\unimaraula02\\atividade1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|solutionrelative:unimaraula02\\atividade1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|c:\\dev\\college-exercises\\csharp-classes-2-year-2026\\unimaraula02\\unimaraula02\\unimaraula02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|solutionrelative:unimaraula02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|c:\\dev\\college-exercises\\csharp-classes-2-year-2026\\unimaraula02\\unimaraula02\\unimaraula02\\atividade2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|solutionrelative:unimaraula02\\atividade2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|c:\\dev\\college-exercises\\csharp-classes-2-year-2026\\unimaraula02\\unimaraula02\\unimaraula02\\atividade3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E868D5-B6AC-2417-ECE7-3283E6F05547}|UnimarAula02\\UnimarAula02.csproj|solutionrelative:unimaraula02\\atividade3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Atividade2.cs",
+              "DocumentMoniker": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade2.cs",
+              "RelativeDocumentMoniker": "UnimarAula02\\Atividade2.cs",
+              "ToolTip": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade2.cs",
+              "RelativeToolTip": "UnimarAula02\\Atividade2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T01:00:49.038Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Program.cs",
+              "RelativeDocumentMoniker": "UnimarAula02\\Program.cs",
+              "ToolTip": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Program.cs",
+              "RelativeToolTip": "UnimarAula02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T01:00:29.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Atividade1.cs",
+              "DocumentMoniker": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade1.cs",
+              "RelativeDocumentMoniker": "UnimarAula02\\Atividade1.cs",
+              "ToolTip": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade1.cs",
+              "RelativeToolTip": "UnimarAula02\\Atividade1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:36:18.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Atividade3.cs",
+              "DocumentMoniker": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade3.cs",
+              "RelativeDocumentMoniker": "UnimarAula02\\Atividade3.cs",
+              "ToolTip": "C:\\dev\\college-exercises\\csharp-classes-2-year-2026\\UnimarAula02\\UnimarAula02\\UnimarAula02\\Atividade3.cs",
+              "RelativeToolTip": "UnimarAula02\\Atividade3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:36:33.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

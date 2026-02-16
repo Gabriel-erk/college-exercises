@@ -1,0 +1,14 @@
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\bin\Debug\net10.0\UnimarAula02.exe
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\bin\Debug\net10.0\UnimarAula02.deps.json
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\bin\Debug\net10.0\UnimarAula02.runtimeconfig.json
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\bin\Debug\net10.0\UnimarAula02.dll
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\bin\Debug\net10.0\UnimarAula02.pdb
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.AssemblyInfoInputs.cache
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.AssemblyInfo.cs
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.dll
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\refint\UnimarAula02.dll
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.pdb
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\UnimarAula02.genruntimeconfig.cache
+C:\Users\Aula\Downloads\aulas_csharp\UnimarAula02\UnimarAula02\obj\Debug\net10.0\ref\UnimarAula02.dll

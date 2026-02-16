@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|c:\\users\\aula\\downloads\\aulas_csharp\\unimaraula01\\unimaraula01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|solutionrelative:unimaraula01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|c:\\users\\aula\\downloads\\aulas_csharp\\unimaraula01\\unimaraula01\\comandosbasicosdalinguagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|solutionrelative:unimaraula01\\comandosbasicosdalinguagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|c:\\users\\aula\\downloads\\aulas_csharp\\unimaraula01\\unimaraula01\\models\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|solutionrelative:unimaraula01\\models\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|c:\\users\\aula\\downloads\\aulas_csharp\\unimaraula01\\unimaraula01\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2126020E-24AF-DAE4-B17B-13CBF81EE446}|UnimarAula01\\UnimarAula01.csproj|solutionrelative:unimaraula01\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Program.cs",
+              "RelativeDocumentMoniker": "UnimarAula01\\Program.cs",
+              "ToolTip": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Program.cs*",
+              "RelativeToolTip": "UnimarAula01\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T23:12:56.626Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComandosBasicosDaLinguagem.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\ComandosBasicosDaLinguagem.cs",
+              "RelativeDocumentMoniker": "UnimarAula01\\ComandosBasicosDaLinguagem.cs",
+              "ToolTip": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\ComandosBasicosDaLinguagem.cs*",
+              "RelativeToolTip": "UnimarAula01\\ComandosBasicosDaLinguagem.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T00:52:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlunoService.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Models\\AlunoService.cs",
+              "RelativeDocumentMoniker": "UnimarAula01\\Models\\AlunoService.cs",
+              "ToolTip": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Models\\AlunoService.cs*",
+              "RelativeToolTip": "UnimarAula01\\Models\\AlunoService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T00:39:36.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "UnimarAula01\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Aula\\Downloads\\aulas_csharp\\UnimarAula01\\UnimarAula01\\Models\\Aluno.cs",
+              "RelativeToolTip": "UnimarAula01\\Models\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T00:48:13.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
