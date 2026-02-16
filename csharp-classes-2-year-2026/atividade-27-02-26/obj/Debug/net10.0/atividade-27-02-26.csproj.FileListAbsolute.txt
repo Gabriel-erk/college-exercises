@@ -1,0 +1,14 @@
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\bin\Debug\net10.0\atividade-27-02-26.exe
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\bin\Debug\net10.0\atividade-27-02-26.deps.json
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\bin\Debug\net10.0\atividade-27-02-26.runtimeconfig.json
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\bin\Debug\net10.0\atividade-27-02-26.dll
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\bin\Debug\net10.0\atividade-27-02-26.pdb
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.AssemblyInfo.cs
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.dll
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\refint\atividade-27-02-26.dll
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.pdb
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\atividade-27-02-26.genruntimeconfig.cache
+C:\Users\gabri\source\repos\atividade-27-02-26\atividade-27-02-26\obj\Debug\net10.0\ref\atividade-27-02-26.dll
