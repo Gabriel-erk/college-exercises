@@ -64,7 +64,6 @@ class Campeonato:
                     if self.ranking_campeonato[jogador] > maior_pontuacao:
                         maior_jogador = jogador
                         maior_pontuacao = self.ranking_campeonato[jogador]
-
             dicionario_ordenado[maior_jogador] = maior_pontuacao
 
         return dicionario_ordenado
