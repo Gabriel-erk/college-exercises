@@ -16,7 +16,7 @@ def contar(head, alvo):
     return contador
 
 
-# lista: 3 -> 6 -> 3 -> 9 -> 3 -> 12
+
 n1 = Node(3)
 n2 = Node(6)
 n3 = Node(3)
@@ -30,5 +30,5 @@ n3.proximo = n4
 n4.proximo = n5
 n5.proximo = n6
 
-print(contar(n1, 3))  # 3
-print(contar(n1, 8))  # 0
+print(contar(n1, 3))  
+print(contar(n1, 8))  

@@ -46,7 +46,7 @@ def contar(head, alvo):
     return contador
 
 
-# lista: 5 -> 10 -> 5 -> 20
+
 n1 = Node(5)
 n2 = Node(10)
 n3 = Node(5)
@@ -59,13 +59,10 @@ n3.proximo = n4
 print("Lista inicial:")
 mostrar_lista(n1)
 
-# inserir 30
 n1 = inserir_fim(n1, 30)
 
-# buscar 10
 print("Buscar 10:", buscar(n1, 10))
 
-# contar 5
 print("Quantidade de 5:", contar(n1, 5))
 
 print("Lista final:")

@@ -45,8 +45,6 @@ def contar(head, alvo):
 
     return contador
 
-
-# lista inicial: 101 -> 205 -> 101 -> 330
 n1 = Node(101)
 n2 = Node(205)
 n3 = Node(101)
@@ -59,13 +57,10 @@ n3.proximo = n4
 print("Lista inicial:")
 mostrar_lista(n1)
 
-# inserir 450
 n1 = inserir_fim(n1, 450)
 
-# buscar 205
 print("Produto 205 existe?", buscar(n1, 205))
 
-# contar 101
 print("Quantidade de 101:", contar(n1, 101))
 
 print("Lista final:")
