@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wYtFzOb173I=",
+  "success": true,
+  "projectFilePath": "/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividadeDois/atividadeDois.csproj",
+  "expectedPackageFiles": [
+    "/home/gevferreira/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

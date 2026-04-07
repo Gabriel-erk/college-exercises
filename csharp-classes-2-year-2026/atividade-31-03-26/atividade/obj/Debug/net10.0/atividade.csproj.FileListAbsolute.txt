@@ -1,0 +1,15 @@
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/bin/Debug/net10.0/atividade
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/bin/Debug/net10.0/atividade.deps.json
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/bin/Debug/net10.0/atividade.runtimeconfig.json
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/bin/Debug/net10.0/atividade.dll
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/bin/Debug/net10.0/atividade.pdb
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.GeneratedMSBuildEditorConfig.editorconfig
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.AssemblyInfoInputs.cache
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.AssemblyInfo.cs
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.csproj.CoreCompileInputs.cache
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.sourcelink.json
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.dll
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/refint/atividade.dll
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.pdb
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/atividade.genruntimeconfig.cache
+/home/gevferreira/Documentos/dev/college-exercises/csharp-classes-2-year-2026/atividade-31-03-26/atividade/obj/Debug/net10.0/ref/atividade.dll
