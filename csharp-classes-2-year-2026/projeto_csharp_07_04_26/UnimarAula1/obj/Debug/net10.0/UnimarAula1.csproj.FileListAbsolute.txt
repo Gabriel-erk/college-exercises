@@ -1,0 +1,14 @@
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\bin\Debug\net10.0\UnimarAula1.exe
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\bin\Debug\net10.0\UnimarAula1.deps.json
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\bin\Debug\net10.0\UnimarAula1.runtimeconfig.json
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\bin\Debug\net10.0\UnimarAula1.dll
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\bin\Debug\net10.0\UnimarAula1.pdb
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.dll
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\refint\UnimarAula1.dll
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.pdb
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\UnimarAula1.genruntimeconfig.cache
+C:\Users\Aluno\source\repos\UnimarAula1\UnimarAula1\obj\Debug\net10.0\ref\UnimarAula1.dll
