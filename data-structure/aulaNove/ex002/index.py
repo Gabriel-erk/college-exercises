@@ -6,7 +6,7 @@ class Node:
 def inserir_fim(head, valor):
     novoNo = Node(valor)
     if head == None:
-        head.next = novoNo
+        head = novoNo
     while head.next is not None:
         head = head.next
     last = head
