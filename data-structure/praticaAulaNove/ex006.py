@@ -23,6 +23,7 @@ def inserir_fim(head, valor_a_adicionar):
 def inserir_inicio(head, valor_a_adicionar):
     novoNo = Node(valor_a_adicionar)
     novoNo.next = head
+    return novoNo
 
 def buscar(head, valor_a_procurar):
     while head is not None:
@@ -64,5 +65,5 @@ print(contar_ocorrencias(head, 101))
 print("-------")
 show(head)
 print("-------")
-inserir_inicio(head, 10)
+head = inserir_inicio(head, 10)
 show(head)
