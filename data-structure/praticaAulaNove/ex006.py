@@ -20,6 +20,10 @@ def inserir_fim(head, valor_a_adicionar):
     ultimo = head
     ultimo.next = novoNo
 
+def inserir_inicio(head, valor_a_adicionar):
+    novoNo = Node(valor_a_adicionar)
+    novoNo.next = head
+
 def buscar(head, valor_a_procurar):
     while head is not None:
         if head.data == valor_a_procurar:
@@ -58,4 +62,7 @@ else:
 print("-------")
 print(contar_ocorrencias(head, 101))
 print("-------")
+show(head)
+print("-------")
+inserir_inicio(head, 10)
 show(head)
