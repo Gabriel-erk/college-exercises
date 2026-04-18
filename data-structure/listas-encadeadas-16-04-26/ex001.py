@@ -16,3 +16,23 @@ def remover_duplicados(head):
         current = current.next
 
     return head
+
+n1 = Node(1)
+n2 = Node(2)
+n3 = Node(1)
+n4 = Node(3)
+n5 = Node(2)
+
+n1.next = n2
+n2.next = n3
+n3.next = n4
+n4.next = n5
+
+head = n1
+
+head = remover_duplicados(head)
+
+atual = head
+while atual:
+    print(atual.data)
+    atual = atual.next

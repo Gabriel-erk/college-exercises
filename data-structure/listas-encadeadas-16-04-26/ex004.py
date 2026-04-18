@@ -27,8 +27,28 @@ def elementos_comuns(l1, l2):
                 resultado = novo
                 ultimo_no = novo
             else:
-                pass
+                ultimo_no.next = novo
+                ultimo_no = novo
 
         atual1 = atual1.next
 
     return resultado
+
+a1 = Node(1)
+a2 = Node(2)
+a3 = Node(3)
+a1.next = a2
+a2.next = a3
+
+b1 = Node(2)
+b2 = Node(3)
+b3 = Node(4)
+b1.next = b2
+b2.next = b3
+
+resultado = elementos_comuns(a1, b1)
+
+atual = resultado
+while atual:
+    print(atual.valor, end=" -> ")
+    atual = atual.next
