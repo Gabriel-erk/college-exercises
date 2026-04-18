@@ -1,6 +1,6 @@
 class Node:
-    def __init__(self, valor):
-        self.valor = valor
+    def __init__(self, data):
+        self.data = data
         self.next = None
 
 def elementos_comuns(l1, l2):
@@ -11,17 +11,17 @@ def elementos_comuns(l1, l2):
 
     while atual1:
         atual2 = l2
-        encontrado = False
+        found = False
 
         while atual2:
-            if atual1.valor == atual2.valor:
-                encontrado = True
+            if atual1.data == atual2.data:
+                found = True
                 break
             atual2 = atual2.next
 
-        if encontrado:
+        if found:
 
-            novo = Node(atual1.valor)
+            novo = Node(atual1.data)
 
             if resultado is None:
                 resultado = novo
@@ -50,5 +50,5 @@ resultado = elementos_comuns(a1, b1)
 
 atual = resultado
 while atual:
-    print(atual.valor, end=" -> ")
+    print(atual.data)
     atual = atual.next
