@@ -1,0 +1,6 @@
+recursos usados: 
+- npm
+
+comandos utilizados:
+- npm install -g sass (instalação do sass)
+- sass --load-path=node_modules scss/app.scss css/app.css (permitir que o sass encontre os arquivos instalados do bootstrap)
