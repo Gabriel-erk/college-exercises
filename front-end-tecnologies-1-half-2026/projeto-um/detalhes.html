@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/got-logo.png" alt="" style="width: 10vw;"></a>
+                <a class="navbar-brand" href="#"><img src="img/got-logo.png" alt="" id="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
 
     <main class="container">
         <section id="detalhes">
-            <img src="img/jon.jpg" alt="" class="rounded mt-5" style="width: 75vw; height: 75vw;">
+            <img src="img/jon.jpg" alt="" class="rounded mt-5 img-fluid">
             <h1 class="fw-bold mt-4 mb-3">Jon Snow</h1>
 
             <div id="descricao">
@@ -60,18 +60,18 @@
 
                 <div class="info-personagem p-3 rounded-4">
                     <h6 class="fw-bold">Detalhes</h6>
-                    <div id="detalhamento-personagem" class="d-flex justify-content-between py-2 px-5">
-                        <div id="detalhe">
+                    <div class="d-flex flex-column flex-md-row justify-content-between py-2 px-3 px-md-5 gap-3">
+                        <div class="detalhe">
                             <h6>Nome:</h6>
                             <span class="fw-bold">Jon Snow</span>
                         </div>
 
-                        <div id="detalhe">
+                        <div class="detalhe">
                             <h6>Título:</h6>
                             <span class="fw-bold">King of the North</span>
                         </div>
 
-                        <div id="detalhe">
+                        <div class="detalhe">
                             <h6>Família:</h6>
                             <span class="fw-bold">House Stark</span>
                         </div>
