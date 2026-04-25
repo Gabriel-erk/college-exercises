@@ -10,5 +10,9 @@ $secondary: #1D2D44;
 $headings-font-family: 'Poppins', sans-serif;
 $font-family-base: 'Cabin', sans-serif;
 
+.info-personagem {
+    border: 1px solid #1D2D44;
+}
+
 // @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
