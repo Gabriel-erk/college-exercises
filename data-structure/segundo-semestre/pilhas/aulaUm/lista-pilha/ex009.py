@@ -23,14 +23,27 @@ class Stack:
         else:
             print("Lista vazia.")
 
-expressao_matematica = input("Digite uma expressão matemática: ")
-lista_caracteres_expressao_matematica = list(expressao_matematica)
-
 pilha = Stack()
 
-indice = 0
-while indice < len(lista_caracteres_expressao_matematica):
-    if lista_caracteres_expressao_matematica[indice] == "(":
-        pilha.push(lista_caracteres_expressao_matematica[indice].pop())
+expressao = input("Digite a expressão: ")
 
-#tentei aqui mas esse não consegui entender nada professor
+valida = True
+
+for caractere in expressao:
+
+    if caractere == "(":
+        pilha.push(caractere)
+
+    elif caractere == ")":
+
+        if pilha.is_empty():
+            valida = False
+            break
+
+        pilha.pop()
+
+
+if valida and pilha.is_empty():
+    print("válida")
+else:
+    print("inválida")
