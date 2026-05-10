@@ -22,15 +22,17 @@ class Stack:
             print(self.elements)
         else:
             print("Lista vazia.")
-            
-pilha_paginas_visitadas = Stack()
 
-pilha_paginas_visitadas.push("google.com")
-pilha_paginas_visitadas.push("youtube.com")
-pilha_paginas_visitadas.push("github.com")
+pilha_torre_blocos = Stack()
 
-print("Pilha:", end=" ")
-pilha_paginas_visitadas.show()
-print(f"Voltar 1: {pilha_paginas_visitadas.pop()}")
-print(f"Voltar 2: {pilha_paginas_visitadas.pop()}")
-print(f"Topo atual: {pilha_paginas_visitadas.peek()}")
+pilha_torre_blocos.push(5)
+pilha_torre_blocos.push(3)
+pilha_torre_blocos.push(8)
+pilha_torre_blocos.push(2)
+
+print("Pilha inicial:", end=" ")
+pilha_torre_blocos.show()
+
+print(f"Removido: {pilha_torre_blocos.pop()}")
+print("Pilha final:", end=" ")
+pilha_torre_blocos.show()

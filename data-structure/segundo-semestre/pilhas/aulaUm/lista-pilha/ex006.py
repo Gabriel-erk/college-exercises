@@ -23,14 +23,21 @@ class Stack:
         else:
             print("Lista vazia.")
             
-pilha_paginas_visitadas = Stack()
+pilha = Stack()
 
-pilha_paginas_visitadas.push("google.com")
-pilha_paginas_visitadas.push("youtube.com")
-pilha_paginas_visitadas.push("github.com")
+pilha.push(10)
+pilha.push(20)
+pilha.push(30)
 
 print("Pilha:", end=" ")
-pilha_paginas_visitadas.show()
-print(f"Voltar 1: {pilha_paginas_visitadas.pop()}")
-print(f"Voltar 2: {pilha_paginas_visitadas.pop()}")
-print(f"Topo atual: {pilha_paginas_visitadas.peek()}")
+pilha.show()
+
+print(f"Removido: {pilha.pop()}")
+
+indice = 0
+soma_valores_pilha = 0
+while indice < pilha.size():
+    soma_valores_pilha += pilha.elements[indice]
+    indice += 1
+
+print(f"Soma restante: {soma_valores_pilha}")

@@ -22,15 +22,14 @@ class Stack:
             print(self.elements)
         else:
             print("Lista vazia.")
-            
-pilha_paginas_visitadas = Stack()
 
-pilha_paginas_visitadas.push("google.com")
-pilha_paginas_visitadas.push("youtube.com")
-pilha_paginas_visitadas.push("github.com")
+expressao_matematica = input("Digite uma expressão matemática: ")
+lista_caracteres_expressao_matematica = list(expressao_matematica)
 
-print("Pilha:", end=" ")
-pilha_paginas_visitadas.show()
-print(f"Voltar 1: {pilha_paginas_visitadas.pop()}")
-print(f"Voltar 2: {pilha_paginas_visitadas.pop()}")
-print(f"Topo atual: {pilha_paginas_visitadas.peek()}")
+pilha = Stack()
+
+while lista_caracteres_expressao_matematica != []:
+    pilha.push(lista_caracteres_expressao_matematica.pop())
+
+indice = 0
+

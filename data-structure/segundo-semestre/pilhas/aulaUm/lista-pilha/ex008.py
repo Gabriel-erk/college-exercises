@@ -22,15 +22,24 @@ class Stack:
             print(self.elements)
         else:
             print("Lista vazia.")
-            
-pilha_paginas_visitadas = Stack()
 
-pilha_paginas_visitadas.push("google.com")
-pilha_paginas_visitadas.push("youtube.com")
-pilha_paginas_visitadas.push("github.com")
+pilha_acoes = Stack()
 
-print("Pilha:", end=" ")
-pilha_paginas_visitadas.show()
-print(f"Voltar 1: {pilha_paginas_visitadas.pop()}")
-print(f"Voltar 2: {pilha_paginas_visitadas.pop()}")
-print(f"Topo atual: {pilha_paginas_visitadas.peek()}")
+pilha_acoes.push("Digitar A")
+pilha_acoes.push("Digitar B")
+pilha_acoes.push("Apagar")
+pilha_acoes.push("Colar")
+
+print("Pilha inicial:", end=" ")
+pilha_acoes.show()
+
+pilha_acoes_desfeitas = Stack()
+
+pilha_acoes_desfeitas.push(pilha_acoes.pop())
+pilha_acoes_desfeitas.push(pilha_acoes.pop())
+
+print("Desfeitas:", end=" ")
+pilha_acoes_desfeitas.show()
+
+print("Pilha final:", end=" ")
+pilha_acoes.show()
