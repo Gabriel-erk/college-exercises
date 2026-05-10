@@ -28,8 +28,9 @@ lista_caracteres_expressao_matematica = list(expressao_matematica)
 
 pilha = Stack()
 
-while lista_caracteres_expressao_matematica != []:
-    pilha.push(lista_caracteres_expressao_matematica.pop())
-
 indice = 0
+while indice < len(lista_caracteres_expressao_matematica):
+    if lista_caracteres_expressao_matematica[indice] == "(":
+        pilha.push(lista_caracteres_expressao_matematica[indice].pop())
 
+#tentei aqui mas esse não consegui entender nada professor
