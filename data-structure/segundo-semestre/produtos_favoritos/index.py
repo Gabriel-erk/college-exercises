@@ -75,5 +75,3 @@ print("=== Respostas 'reflexão' ===")
 print("1 - Organização da lógica, facilitando a ordenação e compreendimento do sistema.")
 print("2 - Pois em uma lista muito grande seria necessárioa uma grande quantidade de trocas de valores, gerando consequentemente um grande numero de comparações entre valores o que poderia exigir um tempo alto do sistema para retornar algum valor.")
 print("3 - Atributo do objeto na comparação foi o: 'preco'")
-
-uuuu
