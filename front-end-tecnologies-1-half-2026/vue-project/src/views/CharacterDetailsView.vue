@@ -26,7 +26,7 @@ onMounted(async () => {
 
             <div class="col-md-5">
 
-                <img :src="character.imageUrl" class="img-fluid rounded">
+                <img :src="character.imageUrl" class="img-fluid character-image rounded mb-3">
 
             </div>
 
@@ -52,7 +52,7 @@ onMounted(async () => {
 
                 </div>
 
-                <router-link to="/" class="btn btn-primary mt-4">
+                <router-link to="/" class="btn btn-secondary mt-4">
                     Voltar
                 </router-link>
 
