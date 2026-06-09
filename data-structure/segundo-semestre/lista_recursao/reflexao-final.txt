@@ -1,0 +1,11 @@
+Reflexão Final
+
+O exercício mais difícil foi o de contar arquivos em pastas, pois foi necessário lidar com listas dentro de listas.
+
+O exercício que mais ajudou a entender a recursão foi o de contagem regressiva, porque fica fácil visualizar a função chamando ela mesma até parar.
+
+O caso-base é importante porque define quando a função deve parar de executar.
+
+Sem um caso-base, a função entra em chamadas infinitas e gera um erro de recursão.
+
+A recursão pode ser utilizada em sistemas que trabalham com pastas e subpastas, árvores de dados, buscas e alguns algoritmos de ordenação.
