@@ -1,0 +1,16 @@
+1 - Qual é o caso base desse problema?
+Quando o item encontrado é um Arquivo. Nesse momento não é necessário fazer outra chamada recursiva, basta retornar ou somar seu tamanho.
+
+2 - Onde acontece a chamada recursiva?
+Neste trecho:
+total += calcular_tamanho(item)
+quando item é uma Pasta.
+
+3 - Por que esse problema combina bem com recursão?
+Porque uma pasta pode conter outras pastas, que possuem exatamente a mesma estrutura da pasta principal. Ou seja, o problema se repete em níveis menores.
+
+4 - O que aconteceria se uma pasta pudesse conter ela mesma?
+A recursão nunca terminaria e ocorreria um erro de recursão infinita (RecursionError).
+
+5 - Como a solução mudaria se fosse necessário contar também a quantidade total de arquivos?
+Seria necessário manter um contador de arquivos. Poderíamos retornar duas informações: o tamanho total e a quantidade total de arquivos encontrados durante a recursão.
